@@ -182,21 +182,6 @@ Input CXR ──> Feature Activations A^k ──> Higher-Order Gradients α^(k, 
 
 ---
 
-## 📁 Repository Structure
-
-```text
-qsl_net/
-├── config.py                 # Hyperparameters, paths, search spaces, and bin configs
-├── preprocessing.py          # QAAP: Sharpness, Contrast, MAD noise, Otsu, adaptive CLAHE/NLM
-├── simclr.py                 # Self-supervised contrastive learning module & NT-Xent loss
-├── models.py                 # MultiScaleAttentionFusion (MSAF) & backbone builders
-├── training.py               # Memory-efficient streaming 5-fold CV & stacking meta-learner
-├── evaluation.py             # Metrics, Grad-CAM++, McNemar tests, Bootstrap CIs
-├── main_kaggle_notebook.py   # Master self-contained Kaggle notebook script (Phases 1–11)
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
-```
-
 ---
 
 ## 🚀 Getting Started
